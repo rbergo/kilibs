@@ -1,0 +1,305 @@
+EESchema Schematic File Version 2
+LIBS:elettrotec
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp "ROBSON di Roberto eusebio bergo'"
+Comment1 ""
+Comment2 ""
+Comment3 "www.robson.it"
+Comment4 ""
+$EndDescr
+Text Notes 2950 850  0    197  ~ 0
+Kilibs: electrotec library summary
+$Comp
+L Contact.NC K?
+U 1 1 54F7596D
+P 2000 2050
+F 0 "K?" H 2200 2150 60  0000 L CNN
+F 1 "Contact.NC" H 2200 2050 60  0000 L CNN
+F 2 "" H 2000 2050 60  0000 L CNN
+F 3 "" H 2000 2050 60  0000 L CNN
+	1    2000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Contact.NO K?
+U 1 1 54F75981
+P 2850 2050
+F 0 "K?" H 3000 2100 60  0000 L CNN
+F 1 "Contact.NO" H 3000 2000 60  0000 L CNN
+F 2 "" H 2850 2050 60  0000 L CNN
+F 3 "" H 2850 2050 60  0000 L CNN
+	1    2850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FAN FN?
+U 1 1 54F75995
+P 10300 1900
+F 0 "FN?" H 10625 1975 60  0000 L CNN
+F 1 "FAN" H 10625 1850 60  0000 L CNN
+F 2 "" H 10300 1900 60  0000 L CNN
+F 3 "" H 10300 1900 60  0000 L CNN
+	1    10300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Filter F?
+U 1 1 54F759A9
+P 8350 1950
+F 0 "F?" H 8500 2025 60  0000 L CNN
+F 1 "Filter" H 8500 1900 60  0000 L CNN
+F 2 "" H 8350 1950 60  0000 L CNN
+F 3 "" H 8350 1950 60  0000 L CNN
+	1    8350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F?
+U 1 1 54F759BD
+P 6400 5500
+F 0 "F?" H 6575 5550 60  0000 L CNN
+F 1 "Fuse" H 6575 5450 60  0000 L CNN
+F 2 "" H 6400 5500 60  0000 L CNN
+F 3 "" H 6400 5500 60  0000 L CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Diff. ID?
+U 1 1 54F759D1
+P 1200 3450
+F 0 "ID?" H 1425 3500 60  0000 L CNN
+F 1 "Int.Diff." H 1425 3375 60  0000 L CNN
+F 2 "" H 1200 3450 60  0000 L CNN
+F 3 "" H 1200 3450 60  0000 L CNN
+	1    1200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Diff.Bip ID?
+U 1 1 54F759E5
+P 2300 3450
+F 0 "ID?" H 2675 3500 60  0000 L CNN
+F 1 "Int.Diff.Bip" H 2675 3375 60  0000 L CNN
+F 2 "" H 2300 3450 60  0000 L CNN
+F 3 "" H 2300 3450 60  0000 L CNN
+	1    2300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Diff.Tri ID?
+U 1 1 54F759F9
+P 3600 3450
+F 0 "ID?" H 4175 3500 60  0000 L CNN
+F 1 "Int.Diff.Tri" H 4175 3375 60  0000 L CNN
+F 2 "" H 3600 3450 60  0000 L CNN
+F 3 "" H 3600 3450 60  0000 L CNN
+	1    3600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Diff.Mag ID?
+U 1 1 54F75A0D
+P 1200 4600
+F 0 "ID?" H 1400 4550 60  0000 L CNN
+F 1 "Int.Diff.Mag" H 1400 4450 60  0000 L CNN
+F 2 "" H 1200 4600 60  0000 L CNN
+F 3 "" H 1200 4600 60  0000 L CNN
+	1    1200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Diff.Mag.Bip ID?
+U 1 1 54F75A21
+P 2300 4600
+F 0 "ID?" H 2725 4575 60  0000 L CNN
+F 1 "Int.Diff.Mag.Bip" H 2725 4450 60  0000 L CNN
+F 2 "" H 2300 4600 60  0000 L CNN
+F 3 "" H 2300 4600 60  0000 L CNN
+	1    2300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Diff.Mag.Tri ID?
+U 1 1 54F75A35
+P 3600 4550
+F 0 "ID?" H 4225 4550 60  0000 L CNN
+F 1 "Int.Diff.Mag.Tri" H 4225 4450 60  0000 L CNN
+F 2 "" H 3600 4550 60  0000 L CNN
+F 3 "" H 3600 4550 60  0000 L CNN
+	1    3600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Mag ID?
+U 1 1 54F75A49
+P 1200 5900
+F 0 "ID?" H 1400 5875 60  0000 L CNN
+F 1 "Int.Mag" H 1400 5750 60  0000 L CNN
+F 2 "" H 1200 5900 60  0000 L CNN
+F 3 "" H 1200 5900 60  0000 L CNN
+	1    1200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Mag.Bip ID?
+U 1 1 54F75A5D
+P 2300 5900
+F 0 "ID?" H 2725 5875 60  0000 L CNN
+F 1 "Int.Mag.Bip" H 2725 5750 60  0000 L CNN
+F 2 "" H 2300 5900 60  0000 L CNN
+F 3 "" H 2300 5900 60  0000 L CNN
+	1    2300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Int.Mag.Tri ID?
+U 1 1 54F75A71
+P 3800 5900
+F 0 "ID?" H 4200 5900 60  0000 L CNN
+F 1 "Int.Mag.Tri" H 4200 5775 60  0000 L CNN
+F 2 "" H 3800 5900 60  0000 L CNN
+F 3 "" H 3800 5900 60  0000 L CNN
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lamp L?
+U 1 1 54F75A85
+P 7150 5450
+F 0 "L?" H 7450 5525 60  0000 L CNN
+F 1 "Lamp" H 7450 5400 60  0000 L CNN
+F 2 "" H 7150 5450 60  0000 L CNN
+F 3 "" H 7150 5450 60  0000 L CNN
+	1    7150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mot.As.Tri M?
+U 1 1 54F75A99
+P 9200 1900
+F 0 "M?" H 9500 1975 60  0000 L CNN
+F 1 "Mot.As.Tri" H 9500 1850 60  0000 L CNN
+F 2 "" H 9200 1900 60  0000 L CNN
+F 3 "" H 9200 1900 60  0000 L CNN
+	1    9200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pilz PZ?
+U 1 1 54F75AAD
+P 8900 5500
+F 0 "PZ?" H 9250 5625 60  0000 L CNN
+F 1 "Pilz" H 9250 5450 60  0000 L CNN
+F 2 "" H 8900 5500 60  0000 L CNN
+F 3 "" H 8900 5500 60  0000 L CNN
+	1    8900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power.Supply PS?
+U 1 1 54F75AC1
+P 5650 1950
+F 0 "PS?" H 5825 2025 60  0000 L CNN
+F 1 "Power.Supply" H 5825 1900 60  0000 L CNN
+F 2 "" H 5650 1950 60  0000 L CNN
+F 3 "" H 5650 1950 60  0000 L CNN
+	1    5650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power.Supply.Dual PS?
+U 1 1 54F75AD5
+P 6850 1950
+F 0 "PS?" H 7025 2025 60  0000 L CNN
+F 1 "Power.Supply.Dual" H 7025 1875 60  0000 L CNN
+F 2 "" H 6850 1950 60  0000 L CNN
+F 3 "" H 6850 1950 60  0000 L CNN
+	1    6850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Puls.Emerg. P?
+U 1 1 54F75AE9
+P 1200 7300
+F 0 "P?" H 1425 7400 60  0000 L CNN
+F 1 "Puls.Emerg." H 1425 7275 60  0000 L CNN
+F 2 "" H 1200 7300 60  0000 L CNN
+F 3 "" H 1200 7300 60  0000 L CNN
+	1    1200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Puls.NC P?
+U 1 1 54F75AFD
+P 2350 7300
+F 0 "P?" H 2575 7400 60  0000 L CNN
+F 1 "Puls.NC" H 2575 7275 60  0000 L CNN
+F 2 "" H 2350 7300 60  0000 L CNN
+F 3 "" H 2350 7300 60  0000 L CNN
+	1    2350 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Puls.NO P?
+U 1 1 54F75B11
+P 3450 7300
+F 0 "P?" H 3600 7375 60  0000 L CNN
+F 1 "Puls.NO" H 3600 7250 60  0000 L CNN
+F 2 "" H 3450 7300 60  0000 L CNN
+F 3 "" H 3450 7300 60  0000 L CNN
+	1    3450 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay K?
+U 1 1 54F75B25
+P 1200 2050
+F 0 "K?" H 1450 2125 60  0000 L CNN
+F 1 "Relay" H 1450 2000 60  0000 L CNN
+F 2 "" H 1200 2050 60  0000 L CNN
+F 3 "" H 1200 2050 60  0000 L CNN
+	1    1200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sez.Fuse F?
+U 1 1 54F75B39
+P 4500 7300
+F 0 "F?" H 4650 7425 60  0000 L CNN
+F 1 "Sez.Fuse" H 4650 7300 60  0000 L CNN
+F 2 "" H 4500 7300 60  0000 L CNN
+F 3 "" H 4500 7300 60  0000 L CNN
+	1    4500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sez.Fuse.Bip F?
+U 1 1 54F75B4D
+P 5400 7300
+F 0 "F?" H 5775 7425 60  0000 L CNN
+F 1 "Sez.Fuse.Bip" H 5775 7300 60  0000 L CNN
+F 2 "" H 5400 7300 60  0000 L CNN
+F 3 "" H 5400 7300 60  0000 L CNN
+	1    5400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Socket.Bip SO?
+U 1 1 54F75B61
+P 10200 5550
+F 0 "SO?" H 10475 5625 60  0000 L CNN
+F 1 "Socket.Bip" H 10475 5500 60  0000 L CNN
+F 2 "" H 10225 5400 60  0000 L CNN
+F 3 "" H 10225 5400 60  0000 L CNN
+	1    10200 5550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
